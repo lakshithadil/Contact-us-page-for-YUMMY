@@ -1,0 +1,440 @@
+<html>
+<head><title>contact us</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet"  type="text/css" href="css/callanimation.css" />
+<link rel="stylesheet"  type="text/css" href="css/head.css" />
+<style>
+html{
+scroll-behavior:smooth;
+}
+
+
+
+body{
+ margin:0px;
+ padding:0px;
+}
+.hb{
+background-image:url(lotus-wallpaper.jpg);
+background-size:cover;
+height:350px;
+}
+.header{
+float:left;
+width:100%;
+left:0px;
+height:350px;
+background-color:black;
+opacity:.8;
+margin-bottom:10px;
+}
+
+.header1{
+color:white;
+width:100%;
+position:fixed;
+left:0px;
+top:0px;
+height:50px;
+background-color:black;
+opacity:0.9;
+border-bottom:2px solid white;
+padding-bottom:0px;
+box-shadow:0px 0px 10px 1px #f5deb3 ;
+}
+
+@keyframes headtopic {
+from {top:-100px;}
+to{top:50px;}
+}
+
+
+
+.header p.a{
+color:white;
+position:absolute;
+left:580px;
+top:50px;
+text-weight:bold;
+font-size:80px;
+padding:2px;
+animation:headtopic 3s 1;
+animation-timing-function:ease;
+}
+.header p.b{
+color:white;
+position:absolute;
+left:500px;
+top:170px;
+text-weight:bold;
+font-size:55px;
+padding:2px;
+animation:headtopic2 3s 1;
+animation-timing-function:ease;
+}
+@keyframes headtopic2{
+from {font-size:45px;opacity:0.1;}
+to{font-size:55px;opacity:1;}
+
+}
+.h{
+width:auto;
+height:500px;
+background-color:#f1f1f1;
+padding-left:300px;
+padding-top:100px;
+padding-bottom:100px;
+}
+
+.con{
+padding:10px;
+float:left;
+border:;
+}
+
+.row:after{
+content:"";
+display:table;
+clear:both;
+}
+
+input[type="text"],textarea{
+width:500px;
+background-color:white;
+height:40px;
+padding:10px;
+display:block;
+border-style:none;
+margin:20px;
+}
+
+input[type="submit"]{
+color:white;
+width:100px;
+background-color:#1ec0ff;
+height:30px;
+padding:5px;
+display:block;
+margin:20px;
+border-style:none;
+border-radius:20px;
+font-size:10px;
+}
+input[type="submit"]:hover{
+-webkit-box-shadow: 0px 0px 5px 2px wheat; 
+box-shadow: 0px 0px 5px 2px wheat;
+background-color:black;
+transition:0.5s;
+
+}
+.h2{
+width:auto;
+height:100px;
+overflow:hidden;
+}
+.footer1{
+color:black;
+text-shadow:0px 1px 1px #f5deb3;
+width:auto;
+height:300px;
+ background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(72,72,72,1) 100%); 
+padding-left:200px;
+overflow:hidden;
+border-bottom:1px solid white;
+
+}
+.footer2{
+padding-top:10px;
+width:auto;
+height:53px;
+background-color:black;
+color:white;
+text-align:center;
+}
+ul{
+list-style:none;
+margin-top:0px;
+margin-left:700px;
+}
+li{
+float:left;
+}
+li a {
+margin-top:6px;
+font-size:20px;
+padding:12px;
+margin-right:10px;
+display:block;
+color:white;
+text-align:left;
+text-decoration: none;
+}
+li a:hover,li.flist a:hover{
+  color:#f5deb3;
+  margin-left:5px;
+  transition: 0.3s;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+.dropdown-content {
+  display:none;
+  position:absolute;
+  background-color:black;
+  top:50px;
+  min-width:60px;
+  box-shadow:0px 2px 10px 1px #f5deb3;
+  z-index: 1;
+  border:2px solid white;
+  
+}
+li.dropdown {
+  display:inline-block;
+}
+.dropdown:hover .dropdown-content {
+  animation: headdrop 0.5s 1;
+  animation-timing-function:ease;
+  display:block;
+}
+
+@keyframes headdrop{
+from {opacity:0.1;}
+to{opacity:1.0;}
+}
+ul.flist{
+padding:0px;
+list-style:none;
+margin-top:0px;
+margin-left:0px;
+
+}
+li.flist{
+float:none;
+}
+li.flist a {
+font-size:18px;
+color:white;
+text-shadow:0px 0px 2px  black ;
+margin-top:0px;
+padding:5px;
+width:80px;
+margin-right:0px;
+display:block;
+text-align:left;
+text-decoration: none;
+}
+@keyframes social {
+from{transform:rotate(0deg);}
+to{transform:rotate(360deg);}
+}
+.footerimg img:hover{
+animation:shake .4s 2;
+}
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+.h2 img:hover{
+animation:shake .4s 2;
+}
+</style>
+</head>
+<body>
+<div class="topnav" style="background-image:url(images/parallax-bg-8.jpg);background-position:0 -31;background-size:1600px 850px;">
+
+    <div class="left_nav" style="float:left;padding:4px;margin-left:4rem;">
+        <img src="images/logo-white.png" width="150"/>
+    </div>
+    <div class="right_nav" style="text-align:center;margin:0 auto;margin-left:42rem;">
+        <a href="#home" class="active">Home</a>
+        <a href="#news" class="active">services</a>
+        <a href="#contact" class="active">Reservation</a>
+        <a href="#about" class="active">Gallery</a>
+        <a href="#home" class="active">Shops</a>
+        <a href="#news" class="active">About</a>
+        <a href="#contact" class="active">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+        </a>
+    </div>
+</div>
+<div class="main_img">
+<img src="images/parallax-bg-8.jpg" height="850px" width="1600px" />
+</div>
+<div class="text_hero">
+      <h4 style="font-family: Arial, Helvetica, sans-serif;">CONTACT US</h4>
+      <h1 style="font-family: 'Great Vibes', cursive;font-size: 150px;margin-bottom: auto;font-weight: 100;">We love to know you...</h1>
+      <a href="#form" class="main_button">contact us now </a>
+</div>
+
+<a name="form">
+<div class="h">
+	<div class="row">
+		<div class="con">
+			<form name="cus" action="get.php">
+		    <input type="text" name="name" id="name" placeholder="Your Name..">
+		    <input type="text" name="email" id="email" placeholder="Your Email..">
+		    <input type="text" name="subject" id="subject" placeholder="Your Subject..">
+		    <textarea name="message" id="message" placeholder="Your Message.." style="min-height:200px;min-width:500px;max-width:500px;"></textarea>
+			<input type="submit" value="SEND MAIL">
+		<form>
+		</div>
+		<div class="con">
+			<div class="row">	
+				<div class="con" style="padding-top:20px;">	
+					<image src="images/ploc.png" width="50px" height="50px">
+				</div>	
+				<div class="con" style="padding-top:0px;">	
+					<h3>Postal Location</h3>
+					<address>
+					PO Box 16122 Toronto Eaton Centre,<br>
+					220 The PATH Toronto,ON M5B 2H1,Canada.<br>
+					</address>
+					<div class="con"style="padding-top:9px;padding-left:0px;">
+						<image src="images/call.png" width="12px" height="12px">
+					</div>	
+					<div class="con"style="padding-top:5px;padding-left:0px;">	
+						(+1)613 555-0105
+					</div>
+				</div>   	
+			</div>
+			<div class="row">	
+				<div class="con">
+					<image src="images/email.png" width="50px" height="50px">
+				</div>
+				<div class="con" style="margin-top:17px;">	
+					<a style="text-decoration:none;color:#1ec0ff;" href="mailto:info@yummy.com?cc=someoneelse@yummy.com&bcc=andsomeoneelse2@yummy.com&subject=Summer%20Party&body=You%20are%20invited%20to%20a%20big%20summer%20party!">info@yummy.com</a>
+				</div>
+			</div>
+			<div class="row">	
+				<div class="con" style="padding-top:20px;">
+					<image src="images/gloc.png" width="50px" height="50px">
+				</div>
+				<div class="con" style="padding-top:0px;">
+				<h3>Global Location</h3>
+				<address>
+				PO Box 16122 Toronto Eaton Centre,<br>
+				220 The PATH Toronto,ON M5B 2H1,Canada.<br>
+				</address>
+				<div class="con"style="padding-top:9px;padding-left:0px;">
+						<image src="images/call.png" width="12px" height="12px">
+					</div>	
+					<div class="con"style="padding-top:5px;padding-left:0px;">	
+						(+1)613 555-0105
+					</div>
+				</div>
+			</div>
+			<div class="row">	
+				<div class="con" style="padding-top:20px;">
+					<image src="images/work.png" width="50px" height="50px" style="float:left">
+				</div>
+				<div class="con" style="padding-top:0px;">
+				<h3>Work Timings</h3>
+				<p>Mon - Fri 10am to 7pm<br>
+				sat:8am to 12pm
+				</p>
+				</div>
+			</div>	
+		</div>
+	</div>
+</div>
+</a>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.295261758773!2d79.9138713147055!3d6.974449094961507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae258033380c747%3A0x12c707892cabde33!2sUniversity%20of%20Kelaniya%20-%20Sri%20Lanka!5e0!3m2!1sen!2slk!4v1606030570401!5m2!1sen!2slk" width="100%" height="400" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0">
+</iframe>
+<div class="h2">
+<div class="row">
+			<div class="con" style="margin-left:450px;" >
+			<img src="images/fbbig.png" width="75px" height="75px">
+			</div>
+			<div class="con">
+			<img src="images/ytbig.png" width="75px" height="75px">
+			</div>
+			<div class="con">
+			<img src="images/igbig.png" width="75px" height="75px">
+			</div>
+			<div class="con">
+			<img src="images/wpbig.png" width="75px" height="75px">
+			</div>
+			<div class="con">
+			<img src="images/tgbig.png" width="75px" height="75px">
+			</div>
+			<div class="con">
+			<img src="images/twbig.png" width="75px" height="75px">
+			</div>
+		</div>	
+</div>
+<!--footer-->
+<div class="footer1">
+	<div class="row">
+		<div class="con" style="width:260px;margin-left:50px;"><h3 style="color:white;">About us<hr style="width:150px;margin-left:0px;"></hr></h3>
+		<p style="color:white;
+text-shadow:0px 0px 2px  black;">We are an aspiring team who intends to serve the best quality meals to our beloved customers of all kinds. YUMMY guarantees a gorgeous, tantalising and balanced range of quality products to everyone who considers visiting us. We are at your service 24*7! Reserve your meal today and experience the grandeur of YUMMY.
+		</p>
+		</div>
+		<div class="con" style="width:200px;margin-left:40px;"><h3 style="color:white;">Usefull links<hr style="width:150px;margin-left:0px;"></hr></h3>
+		<ul class="flist" >
+			<li class="flist"><a href="#a">Yummy</a></li>
+			<li class="flist"><a href="#b">Services</a></li>
+			<li class="flist"><a href="#c">Reservation</a></li>
+			<li class="flist"><a href="#d">Gallery</a></li>
+			<li class="flist"><a href="#e">Our shops</a></li>
+			<li class="flist"><a href="#f">Contact us</a></li>
+		</ul>	
+		</div>
+		<div class="con"style="width:200px;margin-left:0px;"><h3 style="color:white;">Our shops<hr style="width:150px;margin-left:0px;"></hr></h3>
+		<ul class="flist" >
+			<li class="flist"><a style="font-size:14px;width:200px;" href="#s1">🍽 &nbspNo:567/C,Ritz Tower,Colombo 08,Sri Lanka.</a></li>
+			<li class="flist"><a style="font-size:14px;width:200px;" href="#s2">🍽 &nbspNo:567/C,Ritz Tower,Colombo 08,Sri Lanka.</a></li>
+			<li class="flist"><a style="font-size:14px;width:200px;" href="#s3">🍽 &nbspNo:567/C,Ritz Tower,Colombo 08,Sri Lanka.</a></li>
+			<li class="flist"><a style="font-size:14px;width:200px;" href="#s4">🍽 &nbspNo:567/C,Ritz Tower,Colombo 08,Sri Lanka.</a></li>
+		</ul>	
+		</div>		
+		<div class="con" style="width:250px;margin-left:50px;"><h3 style="color:white;">Contact us<hr style="width:150px;margin-left:0px;"></hr></h3>
+			<address style="color:white;text-shadow:0px 0px 2px  black;">
+					PO Box 16122 Toronto Eaton Centre,<br>
+					220 The PATH Toronto,ON M5B 2H1,Canada.<br>
+			</address>
+			<br>
+		<div class="row" style="margin-left:-10px;">
+		<div class="con">
+			<img src="images/logo-white.png" width="130"/>
+			</div>
+		</div>	
+		<div class="footerimg">	
+		<div class="row" style="margin-left:-10px;">
+			<div class="con">
+			<img src="images/fb.png" width="40px" height="40px">
+			</div>
+			<div class="con">
+			<img src="images/yt.png" width="40px" height="40px">
+			</div>
+			<div class="con">
+			<img src="images/ig.png" width="40px" height="40px">
+			</div>
+			<div class="con">
+			<img src="images/wp.png" width="40px" height="40px">
+			</div>
+		</div>
+		</div>
+		</div>
+    </div>
+</div>
+<div class="call" >
+<div class="request-loader">
+  <span><img style="padding-top:3px;" src="images/wp.png" width="90px" height="91px"></span>
+</div>
+</div>
+<div class="footer2">Yummy.com<br>© 2020 All rights reserved | Designed by GROUP H</p></div>
+</body>
+</html>
